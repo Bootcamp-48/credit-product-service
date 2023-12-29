@@ -8,7 +8,7 @@ import javax.validation.constraints.*;
 import java.time.LocalDate;
 
 @Data
-@Document(collection = "credits")
+@Document(collection = "credit_products")
 public class CreditProduct {
 
     @Id
